@@ -14,13 +14,21 @@ public abstract class Usuario {
     }
 
     public void registrar() {
-        // Lógica para registrar o usuário
+        System.out.println("Usuário registrado com sucesso: " + nome);
     }
 
     public void editarRegistro(String novoNome, String novoEmail, String novoTelefone) {
         this.nome = novoNome;
         this.email = novoEmail;
         this.telefone = novoTelefone;
-        // Lógica para editar o registro do usuário
+        System.out.println("Informações do usuário editadas com sucesso.");
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getEmail() {
+        return email;
     }
 }

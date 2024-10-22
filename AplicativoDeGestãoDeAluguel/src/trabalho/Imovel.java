@@ -30,12 +30,22 @@ public class Imovel {
     }
 
     public boolean verificarDisponibilidade(Date inicio, Date fim) {
-        // Verifica se o imóvel está disponível entre as datas de início e fim
-        return true; // Simplificado
+        return true; // Simulação de disponibilidade
     }
 
     public void atualizarDisponibilidade(Date periodo) {
-        // Lógica para atualizar a disponibilidade do imóvel
+        // Atualizar disponibilidade
+    }
+
+    public float getValorDiaria() {
+        return valorDiaria;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
     }
 }
-
