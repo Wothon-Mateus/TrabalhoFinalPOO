@@ -1,5 +1,7 @@
 package trabalho;
 
+
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -29,19 +31,19 @@ public class MainWindow extends JFrame {
         // Ação dos botões
         btnBuscarImoveis.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                new BuscarImoveisWindow();
+                new BuscarImoveisWindow();  // Certifique-se de que essa classe existe
             }
         });
 
         btnCadastrarImovel.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                new CadastrarImovelWindow();
+                new CadastrarImovelWindow();  // Certifique-se de que essa classe existe
             }
         });
 
         btnReservarImovel.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                new ReservarImovelWindow();
+                new ReservarImovelWindow();  // Certifique-se de que essa classe existe
             }
         });
 
@@ -50,7 +52,7 @@ public class MainWindow extends JFrame {
     }
 
     public static void main(String[] args) {
+        // Criando a janela principal
         new MainWindow();
     }
 }
-
