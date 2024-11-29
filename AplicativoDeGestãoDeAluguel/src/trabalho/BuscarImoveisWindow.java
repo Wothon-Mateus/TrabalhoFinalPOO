@@ -23,7 +23,7 @@ public class BuscarImoveisWindow extends JFrame {
 
         JButton btnBuscar = new JButton("Buscar");
 
-        // Adicionando componentes à janela
+        // Adicionando componentes à janela main
         add(lblTipo);
         add(txtTipo);
         add(lblPreco);
